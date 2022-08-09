@@ -1,0 +1,413 @@
+/* The content of the posts (body of text) */
+body {	font-family : Verdana,Tahoma,Arial,Sans-Serif;
+	font-size : 11px;
+  color: #FFF;
+  background: #FFF url(images/bg.jpg) repeat-x;
+  padding:0;
+	margin: 0;
+}
+
+
+
+.footer {
+	
+  font-family : Verdana,Tahoma,Arial,Sans-Serif;
+	font-size : 11px;
+  
+  color: #000;
+  background-repeat: repeat-y;
+  background-position: bottom left;
+  padding : 10px 10px 20px 10px;
+
+}
+
+
+
+/* General page style */
+.bodyline {
+	
+	background: #DFDFDF;
+	color:#000;
+	border:1px solid #000;
+}
+
+a {
+	color:#000; 
+	text-decoration:none;
+}
+
+a:hover {
+	color:#000; 
+	text-decoration:underline;
+}
+
+a.side {
+	color:#000; 
+	text-decoration:none;
+}
+
+a:hover.side {
+	color:#000; 
+	text-decoration:underline;
+}
+
+a.white {
+	color:#000; 
+	text-decoration:none;
+	font-weight:bold;
+}
+
+a:hover.white {
+	color:#000; 
+	text-decoration:underline;
+}
+
+form {
+	margin:0px 0px 0px 0px;
+}
+
+hr {
+	height:0px; 
+	border:solid #ccc 1px; 
+	border-top-width: 1px;
+}
+
+hr.side-hr {
+	height:0px; 
+	border:solid #DFDFDF 1px; 
+	border-top-width:1px;
+}
+
+td {
+	font-family:Verdana,Tahoma,Arial,Sans-Serif; 
+	font-size:10px;
+}
+
+pre {
+	font-family:VVerdana,Tahoma,Arial,Sans-Serif; 
+	font-size:11px;
+}
+
+.alt {
+	color:#000;
+}
+
+.button {
+	background: #EFEFEF;
+	// url(images/box-bg);
+	font-family:Verdana,Tahoma,Arial,Sans-Serif; 
+	font-size:10px; 
+	color:#000;
+	background-color:#DFDFDF;
+	border:1px #000000 solid;
+	margin-top:2px;
+}
+	
+.textbox	{
+	background: #323232 ;
+	font-family:Verdana,Tahoma,Arial,Sans-Serif; 
+	font-size:10px; 
+	color:#000;
+	background-color:#DFDFDF;
+	border:1px #FFF solid;
+}
+
+.visits {
+	color:#000; 
+	text-decoration:none; 
+	font-weight: bold;
+	font-size:10px;
+}
+
+.main-body {
+	font-size : 11px;
+	color : #000;
+ background-repeat: repeat-y;
+  padding : 5px 5px 5px 5px;
+}
+
+.side-body {
+	font-size:10px;
+	color:#000;
+	padding:4px 4px 6px 4px;
+	background:  repeat-x;
+}
+
+td.lefttd {
+	background-repeat: repeat-y; 
+	background-image: url(images/bg.jpg);
+}
+
+td.righttd {
+	background-image: url(images/b.jpg); 
+	background-repeat: repeat-y;
+}
+
+.main-bg {
+	color : #000;
+	background: #FFF url(images/bg1.jpg) repeat-x;
+	padding : 10px 5px 10px 5px;
+}
+
+.border {
+	border : 1px solid #CCC;
+}
+
+.borderd {
+	border : 1px dashed #fff;
+}
+
+.side-left .side-border-right {display: none;}
+.side-right .side-border-left {display: none;}
+
+.side-border-left {
+	color : #777;
+	background: #FFF url(images/bg1.jpg) repeat-x;
+	padding : 10px 5px 10px 10px;
+	border : 2px solid #CCC;
+	width: 175px;
+}
+
+.side-border-right {
+	color : #777;
+	background: #FFF url(images/bg1.jpg) repeat-x;
+	padding : 10px 10px 10px 5px;
+	border : 2px solid #CCC;
+	width: 175px;
+}
+
+.news-category {
+	border: 0px none;
+	float: left; margin-left:0; margin-right:5px; margin-top:3px; margin-bottom:0
+}
+
+.news-footer {
+	font-size : 10px;
+	color : #000;
+	background-color : #DFDFDF;
+	padding : 3px 4px 4px 4px;
+}
+
+.capmain {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	font-weight : bold;
+	color : #FFF;
+	background-image: url(images/1cell.gif);
+	
+	padding : 4px
+}
+
+.scapmain {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	font-weight : bold;
+	color : #FFF;
+	background-image: url(images/cell.gif);
+	
+	padding : 4px
+}
+
+.tbl-border {
+	border : 1px solid #CCC;
+}
+
+.tbl {
+	font-size:11px;
+	color:#000;
+	padding:3px 4px 3px 4px;
+}
+
+.tbl1 {
+	font-size:11px; 
+	color:#000; 
+	background:  repeat-x; 
+	border : 1px solid #CCC;
+	padding:4px;
+}
+
+.tbl2 {
+	font-size:11px; 
+	color:#000; 
+	background:  repeat-x;
+	border : 1px solid #CCC;
+	padding:4px;
+}
+
+/* Forum header*/
+.forum-caption {
+	font-size:10px;font-weight:bold; 
+	color:#000;
+	background-color:#525157; 
+	height:24px; 
+	padding:0px 4px 2px 4px;
+	background:  repeat-x; 
+	background-repeat:repeat-x;
+	border-width:0px 0px 0px 0px;
+	border-color:#6D675E #6D675E #6D675E #6D675E;
+	border-style:solid;
+}
+
+/* Quote blocks */
+.quote {
+	color:#000;
+	background-color:#DFDFDF; 
+	padding:2px;
+	margin:0px 20px 0px 20px; 
+	border:1px #000000 solid;
+}
+
+/* Voting Poll */
+.poll {
+	height:12px; 
+	border:1px #FFF solid; 
+}
+
+.comment-name {
+	font-weight:bold; 
+	color:#000;
+}
+
+/* This is for the Shoutbox */
+.shoutboxname {
+	font-weight:bold; 
+	color:#000;
+}
+
+.shoutbox	{
+	color:#000;
+}
+
+.shoutboxdate {
+	font-size:9px; 
+	color:#000;
+}
+
+.small {
+	font-size:11px; 
+	font-weight:normal;
+	color:#000;
+}
+
+.small2 {
+	font-size:10px; 
+	font-weight:normal; 
+	color:#000;
+}
+
+.side-small {
+	font-size:9px; 
+	font-weight:normal; 
+	color:#000;
+}
+
+.side-label {
+	background-color:none; 
+	font-weight:normal; 
+	color:#000; 
+	padding:2px;
+}
+
+
+
+#wrapper {
+	text-align: left;
+	margin: auto;
+	width: 980px;
+}
+
+#header {
+	background: top left url(images/logo.gif) no-repeat;
+	height: 78px;
+}
+#header h1 {
+	color: #FD2E00;
+	font-weight: normal;
+	font-size: 22px;
+	padding: 20px 0 0 70px;
+	margin: 0;
+}
+#header p {
+	color: #333333;
+	padding: 0 0 10px 70px;
+	margin: 0;
+}
+#nav {
+	background: url(images/header_c_bg.gif) repeat-x;
+	position: relative;
+	height: 370px;
+}
+#nav a {
+	color: #E7E4E4;
+	text-decoration: none;
+}
+#nav a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+#nav ul {
+	padding: 70px 0 0 382px;
+	margin: 0;
+	position: relative;
+	z-index: 1;
+}
+#nav li {
+	background: left center url(images/bullettop.gif) no-repeat;
+	padding: 10px 0 8px 30px;
+	margin: 0;
+}
+#nav li#m1 { margin-left: 19px; }
+#nav li#m2 { margin-left: 11px; }
+#nav li#m3 { margin-left: 3px; }
+#nav li#m4 { margin-left: 0px;  }
+#nav li#m5 { margin-left: 2px; }
+#nav li#m6 { margin-left: 8px; }
+#nav a {
+	font-weight: normal;
+}
+#search {
+	margin: 23px 0 0 400px;
+}
+#search h2 {
+	font-weight: normal;
+}
+#search form {
+	margin: 0;
+	padding: 0 0 10px 0;
+}
+#search input.text {
+	border: 1px solid #333;
+	background: #E7E4E4;
+}
+#search input.submit {
+	border: none;
+	background: #E7E4E4;
+}
+#search a {
+	color: #333;
+	padding: 0 5px;
+}
+#search a:hover {
+	color: #300;
+}
+#head {
+	background: url(images/header.jpg) no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 382px;
+	height: 370px;
+}
+#head-pip {
+	background: url(images/header_pip.jpg) no-repeat;
+	position: absolute;
+	top: 0;
+	left: 382px;
+	width: 48px;
+	height: 94px;			
+}
+
+
+}
+
+
